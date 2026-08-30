@@ -3,13 +3,13 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # BASE_DIR = Path(__file__).resolve().parent
 
 # load_dotenv(BASE_DIR / ".env")
-load_dotenv()
+# load_dotenv()
 
 NAUKRI_USERNAME = os.getenv("NAUKRI_USERNAME")
 NAUKRI_PASSWORD = os.getenv("NAUKRI_PASSWORD")
